@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "disney-bill-splitter-api"
+version = "0.1.0"
+description = "API for disney bill splitter"
+authors = ["awm-achi <austinchi2@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "disney_bill_splitter_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+pydantic = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
